@@ -75,6 +75,8 @@ M.theme = {
     DiffText = { bg = M.color.code_yellow, fg = M.color.charcoal },
 
     SpecialKey = { fg = M.color.code_orange },
+
+    IblIndent = { fg = M.color.unexpected_aubergine },
 }
 
 function M.load()
