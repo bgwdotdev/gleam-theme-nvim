@@ -43,6 +43,7 @@ M.theme = {
     DiagnosticWarn = { fg = M.color.code_yellow },
     DiagnosticError = { fg = M.color.code_red },
     Error = { fg = M.color.code_red },
+    ErrorMsg = { bg = M.color.code_red, fg = M.color.charcoal },
     Whitespace = { fg = M.color.code_grey },
     NonText = { fg = M.color.code_grey },
     Statement = { fg = M.color.code_orange },
@@ -53,6 +54,12 @@ M.theme = {
     GitSignsChange = { fg = M.color.code_orange },
     GitSignsDelete = { fg = M.color.code_red },
     Visual = { bg = M.color.unexpected_aubergine },
+    Question = { fg = M.color.code_green, bold = true },
+    SpellBad = { sp = M.color.code_red, undercurl = true },
+    SpellCap = { sp = M.color.code_blue, undercurl = true },
+    SpellRare = { sp = M.color.code_pink, undercurl = true },
+    SpellLocal = { sp = M.color.code_green, undercurl = true },
+    ColorColumn  = { bg = M.color.code_red },
 
     CursorLineNr = { fg = M.color.code_light_pink },
     Search = { bg = M.color.unexpected_aubergine },
@@ -62,10 +69,10 @@ M.theme = {
     Directory = { fg = M.color.code_pink },
     Title = { fg = M.color.code_orange },
 
-    DiffAdd = { bg = M.color.code_green, fg = M.color.white },
-    DiffChange = { bg = M.color.code_orange, fg = M.color.white },
-    DiffDelete = { bg = M.color.code_red, fg = M.color.white },
-    DiffText = { bg = M.color.code_yellow, fg = M.color.white },
+    DiffAdd = { bg = M.color.code_green, fg = M.color.charcoal },
+    DiffChange = { bg = M.color.code_orange, fg = M.color.charcoal },
+    DiffDelete = { bg = M.color.code_red, fg = M.color.charcoal },
+    DiffText = { bg = M.color.code_yellow, fg = M.color.charcoal },
 
     SpecialKey = { fg = M.color.code_orange },
 }
