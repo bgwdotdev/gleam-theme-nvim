@@ -53,6 +53,21 @@ M.theme = {
     GitSignsChange = { fg = M.color.code_orange },
     GitSignsDelete = { fg = M.color.code_red },
     Visual = { bg = M.color.unexpected_aubergine },
+
+    CursorLineNr = { fg = M.color.code_light_pink },
+    Search = { bg = M.color.unexpected_aubergine },
+    SignColumn = { fg = M.color.code_light_pink },
+    FoldColumn = { fg = M.color.code_light_pink },
+    Underlined = { underline = true },
+    Directory = { fg = M.color.code_pink },
+    Title = { fg = M.color.code_orange },
+
+    DiffAdd = { bg = M.color.code_green, fg = M.color.white },
+    DiffChange = { bg = M.color.code_orange, fg = M.color.white },
+    DiffDelete = { bg = M.color.code_red, fg = M.color.white },
+    DiffText = { bg = M.color.code_yellow, fg = M.color.white },
+
+    SpecialKey = { fg = M.color.code_orange },
 }
 
 function M.load()
