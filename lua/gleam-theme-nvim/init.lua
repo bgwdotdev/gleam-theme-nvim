@@ -40,8 +40,16 @@ M.theme = {
     Delimiter = { fg = M.color.code_pink },
     Special = { fg = M.color.code_blue },
     Pmenu = { bg = M.color.code_charcoal },
-    DiagnosticWarn = { fg = M.color.code_yellow },
+    DiagnosticWarn = { fg = M.color.code_orange },
     DiagnosticError = { fg = M.color.code_red },
+    DiagnosticHint = { fg = M.color.unnamed_blue },
+    DiagnosticOk = { fg = M.color.code_green },
+    DiagnosticInfo = { fg = M.color.code_blue },
+    DiagnosticUnderlineError = { sp = M.color.code_red, underline = true },
+    DiagnosticUnderlineWarn = { sp = M.color.code_orange, underline = true },
+    DiagnosticUnderlineHint = { sp = M.color.unnamed_blue, underline = true },
+    DiagnosticUnderlineOk = { sp = M.color.code_green, underline = true },
+    DiagnosticUnderlineInfo = { sp = M.color.code_blue, underline = true },
     Error = { fg = M.color.code_red },
     ErrorMsg = { bg = M.color.code_red, fg = M.color.charcoal },
     Whitespace = { fg = M.color.code_grey },
@@ -60,6 +68,7 @@ M.theme = {
     SpellRare = { sp = M.color.code_pink, undercurl = true },
     SpellLocal = { sp = M.color.code_green, undercurl = true },
     ColorColumn  = { bg = M.color.code_red },
+    MatchParen = { bg = M.color.code_pink, fg = M.color.charcoal },
 
     CursorLineNr = { fg = M.color.code_light_pink },
     Search = { bg = M.color.unexpected_aubergine },
@@ -77,6 +86,10 @@ M.theme = {
     SpecialKey = { fg = M.color.code_orange },
 
     IblIndent = { fg = M.color.unexpected_aubergine },
+
+    RedrawDebugClear = { bg = M.color.code_yellow },
+    RedrawDebugComposed = { bg = M.color.code_green },
+    RedrawDebugRecompose = { bg = M.color.code_red },
 }
 
 function M.load()
