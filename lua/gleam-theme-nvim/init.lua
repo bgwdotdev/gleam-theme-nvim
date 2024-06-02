@@ -59,6 +59,7 @@ M.theme = {
     MatchParen = { bg = M.color.code_pink, fg = M.color.charcoal },
     NonText = { fg = M.color.code_grey },
     Normal = { bg = M.color.underwater_blue, fg = M.color.white },
+    NormalFloat = { bg = M.color.underwater_blue },
     Number = { fg = M.color.code_yellow },
     Operator = { fg = M.color.code_pink },
     Pmenu = { bg = M.color.code_charcoal },
